@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "cL7zlTJUmzKM/Bh6tBAA4q3m9I2o90zORShKHNt8v1MVhnmKKOiJe+L8NO7WWbj4kpLiyljuzyvY9mz9iMktXg==",
+  "dgSpecHash": "j6fJxpsOXzDVQ2gEJOQf8vZVqwO8BECDXgrZDGmmcXa1febBKMwe9tV8LJ3IoL4evUARjUGY/lepQ8CUwGkzlw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\amanda.mata\\Desktop\\source - cursos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\amanda.mata\\Desktop\\source - cursos\\rich-domain-model\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\amanda.mata\\.nuget\\packages\\flunt\\2.0.3\\flunt.2.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

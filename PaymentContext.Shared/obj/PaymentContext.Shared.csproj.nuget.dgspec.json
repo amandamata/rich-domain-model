@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\amanda.mata\\Desktop\\source - cursos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {}
+    "C:\\Users\\amanda.mata\\Desktop\\source - cursos\\rich-domain-model\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\amanda.mata\\Desktop\\source - cursos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
+    "C:\\Users\\amanda.mata\\Desktop\\source - cursos\\rich-domain-model\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\amanda.mata\\Desktop\\source - cursos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\amanda.mata\\Desktop\\source - cursos\\rich-domain-model\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
         "projectName": "PaymentContext.Shared",
-        "projectPath": "C:\\Users\\amanda.mata\\Desktop\\source - cursos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
+        "projectPath": "C:\\Users\\amanda.mata\\Desktop\\source - cursos\\rich-domain-model\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
         "packagesPath": "C:\\Users\\amanda.mata\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\amanda.mata\\Desktop\\source - cursos\\PaymentContext\\PaymentContext.Shared\\obj\\",
+        "outputPath": "C:\\Users\\amanda.mata\\Desktop\\source - cursos\\rich-domain-model\\PaymentContext.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\amanda.mata\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "flunt": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
