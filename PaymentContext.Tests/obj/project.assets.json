@@ -1648,7 +1648,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "PaymentContext.Shared": "1.0.0"
+          "PaymentContext.Shared": "1.0.0",
+          "flunt": "2.0.3"
         },
         "compile": {
           "bin/placeholder/PaymentContext.Domain.dll": {}
@@ -1660,6 +1661,9 @@
       "PaymentContext.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "flunt": "2.0.3"
+        },
         "compile": {
           "bin/placeholder/PaymentContext.Shared.dll": {}
         },
