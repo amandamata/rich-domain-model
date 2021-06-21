@@ -9,7 +9,7 @@ namespace PaymentContext.Domain.ValueObjects
         {
             FirstName = firstName;
             LastName = lastName;
-            AddNotifications(new Contract<Name>()
+             AddNotifications(new Contract<Name>()
                 .Requires()
                 .IsNullOrEmpty(FirstName, "Name.FirstName", "Invalid first name")
                 .IsNullOrEmpty(LastName, "Name.LastName", "Invalid last name")

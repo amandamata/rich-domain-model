@@ -35,8 +35,11 @@ namespace PaymentContext.Domain.Entities
             AddNotifications(new Contract<Student>()
                 .Requires()
                 .IsFalse(hasSubscriptionActive, "Students.Subscriptions", "You alredy has an active subscription")
-                .IsGreaterThan(0, subscription.Payments.Count, "Student.Subscription.Payments", "This subscriptions does not have payment")
+                .AreNotEquals(0, subscription.Payments.Count, "Student.Subscription.Payments", "This subscriptions does not have payment")
             );
+
+            if(IsValid)
+                _subscriptions.Add(subscription);
         }
     }
 }
